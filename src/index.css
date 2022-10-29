@@ -1,5 +1,11 @@
-body {
-  margin: 0;
-  background: #fff;
-  font-family: 'Inter', sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  
+  button{
+    @apply w-full bg-gray-300  p-4  cursor-pointer font-semibold
+  }
 }
