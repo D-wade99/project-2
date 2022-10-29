@@ -3,7 +3,9 @@ import React from "react"
 export default function Body(){
     return(
         <main className="links">
-            <a href="https://training.zuri.team/" id="btn-zuri" className="btn">Training</a>
+            <a href="https://twitter.com/sijuade_daniel"  className="btn">Twitter</a>
+    
+            <a href="https://training.zuri.team/" id="btn-zuri" className="btn">Zuri Team</a>
     
             <a href="https://books.zuri.team" id="books" className="btn">Zuri Books</a>
     
