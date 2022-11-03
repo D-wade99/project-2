@@ -19,7 +19,7 @@ function App() {
                 <figure className="profile__img--mask">
                   <img id="profile__img" src={myProfilePic} alt="" />
                 </figure>
-                <h2 className="profile__name">Sijuade Daniel</h2>
+                <h2 className="profile__name" id="twitter">Sijuade Daniel</h2>
                 <div className="button__wrapper">
                   <button className="button__share">
                     <RiShareForwardLine className="share" />
@@ -37,7 +37,7 @@ function App() {
                 </div>
                 <div id="slack" className="link">
                 <a href="https://slack.com/Sijuade Daniel" target="_blank" rel='noreferrer'>
-                  <button className="link__btn">Slack</button>
+                  <button className="link__btn" id="slack" hidden>Sijuade Daniel</button>
                 </a>
                 </div>
                 <div className="link">
@@ -61,9 +61,14 @@ function App() {
                 </a>
                 </div>
                 <div className="link">
-                <a href="https://books.zuri.team/design-rules" target="_blank" rel='noreferrer'>
-                  <button className="link__btn" id="book__design">Design Books</button>
-                </a>
+                  <a href="https://books.zuri.team/design-rules" target="_blank" rel='noreferrer'>
+                    <button className="link__btn" id="book__design">Design Books</button>
+                  </a>
+                </div>
+                <div className="link">
+                  <a href="/contact" target="_blank" rel='noreferrer'>
+                    <button className="link__btn" id="contact">Contact</button>
+                  </a>
                 </div>
               </div>
             </section>
